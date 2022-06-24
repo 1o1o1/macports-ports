@@ -3,7 +3,7 @@
 PortSystem          1.0
 
 name                ncdc
-version             1.20
+version             1.23
 categories          net chat
 platforms           darwin
 maintainers         nomaintainer
@@ -18,8 +18,8 @@ homepage            https://dev.yorhel.nl/ncdc
 master_sites        https://dev.yorhel.nl/download \
                     sourceforge:project/ncdc/ncdc/ncdc-${version}
 
-checksums           rmd160  e52eee5b8a824f2f2c12a3228a607f2271d202c4 \
-                    sha256  8a998857df6289b6bd44287fc06f705b662098189f2a8fe95b1a5fbc703b9631
+checksums           rmd160  fa250e9b15ddda3f9f15c4fe46556d8d5219e1ad \
+                    sha256  43489b5c2f119d0623d477cc60323cf092bc134fa1d43b4177e55f5a745b9a6e
 
 depends_build       port:pkgconfig
 
